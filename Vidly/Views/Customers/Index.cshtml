@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<Vidly.Models.Customer>
 @{
-    ViewBag.Title = "Movies";
+    ViewBag.Title = "Customers";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -15,6 +15,7 @@ else
     <thead>
         <tr>
             <th>Customer</th>
+            <th>Membership Type</th>
         </tr>
     </thead>
     <tbody>
@@ -22,6 +23,7 @@ else
         {
             <tr>
                 <td>@Html.ActionLink(customer.Name, "Details", "Customers", new { id = customer.Id }, null)</td>
+                <td>@customer.MembershipType.Name</td>
             </tr>
         }
     </tbody>

@@ -204,9 +204,34 @@
     <Compile Include="Migrations\201906100818558_PopulateMembershipTypes.Designer.cs">
       <DependentUpon>201906100818558_PopulateMembershipTypes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201906100825498_ApplyAnnotationsToCustomerName.cs" />
+    <Compile Include="Migrations\201906100825498_ApplyAnnotationsToCustomerName.Designer.cs">
+      <DependentUpon>201906100825498_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906100847078_AddNameToMemberShipType.cs" />
+    <Compile Include="Migrations\201906100847078_AddNameToMemberShipType.Designer.cs">
+      <DependentUpon>201906100847078_AddNameToMemberShipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906100847522_SeedNameOfMemberShipTypes.cs" />
+    <Compile Include="Migrations\201906100847522_SeedNameOfMemberShipTypes.Designer.cs">
+      <DependentUpon>201906100847522_SeedNameOfMemberShipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906100856528_AddBirthdayToCustomer.cs" />
+    <Compile Include="Migrations\201906100856528_AddBirthdayToCustomer.Designer.cs">
+      <DependentUpon>201906100856528_AddBirthdayToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906100909403_AddedPropsToMovie.cs" />
+    <Compile Include="Migrations\201906100909403_AddedPropsToMovie.Designer.cs">
+      <DependentUpon>201906100909403_AddedPropsToMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906100914283_SeedGenres.cs" />
+    <Compile Include="Migrations\201906100914283_SeedGenres.Designer.cs">
+      <DependentUpon>201906100914283_SeedGenres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -277,6 +302,7 @@
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -306,6 +332,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201906100818558_PopulateMembershipTypes.resx">
       <DependentUpon>201906100818558_PopulateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906100825498_ApplyAnnotationsToCustomerName.resx">
+      <DependentUpon>201906100825498_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906100847078_AddNameToMemberShipType.resx">
+      <DependentUpon>201906100847078_AddNameToMemberShipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906100847522_SeedNameOfMemberShipTypes.resx">
+      <DependentUpon>201906100847522_SeedNameOfMemberShipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906100856528_AddBirthdayToCustomer.resx">
+      <DependentUpon>201906100856528_AddBirthdayToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906100909403_AddedPropsToMovie.resx">
+      <DependentUpon>201906100909403_AddedPropsToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906100914283_SeedGenres.resx">
+      <DependentUpon>201906100914283_SeedGenres.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
